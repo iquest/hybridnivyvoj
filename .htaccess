@@ -1,7 +1,0 @@
-//301 Redirect Entire Directory
-RedirectMatch 301 http://www.hybridniaplikace.cz/index.html(.*) http://www.hybridniaplikace.cz/$1
-
-//Caching schema
-<FilesMatch "\.(jpg|png|css|js)$">
-Header set Cache-Control "max-age=600"
-</FilesMatch>
