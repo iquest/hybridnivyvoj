@@ -7,7 +7,9 @@
 	<link rel="canonical" href="http://www.hybridniaplikace.cz/" />
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<link rel="shortcut icon" href="img/favicon.ico" />
-	<link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500&display=swap" rel="stylesheet">
 
 	<meta name="description" content="Soustřeďte se na vývoj hybridní mobilní aplikace. Tvoříme pouze jednu mobilní aplikaci, kterou nasazujeme jako nativní na Android, iPhone i web.">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -83,7 +85,11 @@
 			</div>
 			<div class="row">
 				<div class="col-xs-12">
-					<img src="img/devices.png" class="img-responsive img-devices" data-aos="fade-up">
+					<picture >
+						<source srcset="img/devices.webp" type="image/webp">
+						<source srcset="img/devices.png" type="image/png">
+						<img alt="hero" class="img-responsive img-devices" src="img/devices.webp" data-aos="fade-up"></img>
+					</picture>
 				</div>
 			</div>
 			<div class="row">
@@ -149,7 +155,7 @@
 		</div>
 	</div>
 	<div class="row part-2-2">
-		
+
 		<div class="col-md-offset-2 col-md-8 col-xs-12">
 		</div>
 	</div>
