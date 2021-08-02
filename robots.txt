@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
-Host: http://www.hybridniaplikace.cz/
-Sitemap: http://www.hybridniaplikace.cz/sitemap.xml
+Host: https://www.hybridniaplikace.cz/
+Sitemap: https://www.hybridniaplikace.cz/sitemap.xml
